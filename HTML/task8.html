@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        table.center{
+            margin-left: auto; 
+            margin-right: auto;
+        }
+    </style>
+    <style>
+        p {text-align: center;}
+    </style>
+</head>
+<body>
+    <p><b>HEALTH CHART</b></p>
+    <table class="center">
+        <thead>
+            <tr>
+                <th>State of health</th>
+                <th colspan="2">Fasting Value</th>
+                <th>After Remaining</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Minimum</th>
+                <th>Maximum</th>
+                <th>2 hours of eating</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align:center">Healthy</td>
+                <td style="text-align:center">70</td>
+                <td style="text-align:center">100</td>
+                <td style="text-align:center">Less than 140</td>
+            </tr>
+            <tr>
+                <td style="text-align:center">Pre-diabetes</td>
+                <td style="text-align:center">101</td>
+                <td style="text-align:center">126</td>
+                <td style="text-align:center">140 to 200</td>
+            </tr>
+            <tr>
+                <td style="text-align:center">Diabetes</td>
+                <td style="text-align:center">More than 126</td>
+                <td style="text-align:center">Not Applicable</td>
+                <td style="text-align:center">More than 120</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

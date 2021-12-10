@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><h1>CONTACT US</h1></p>
+    <form onsubmit="foo()">
+        <label for="Firstname">First Name</label><br>
+        <input type="text" name="" id="Firstname" placeholder="Enter your text here" required><br>
+        <br>
+        <label for="Middlename">Middle Name</label><br>
+        <input type="text" name="" id="Middlename" placeholder="Enter your text here" required><br>
+        <br>
+        <label for="Lastname">Last Name</label><br>
+        <input type="text" name="" id="Lastname" placeholder="Enter your text here" required><br>
+        <br>
+        <label for="Email">Email</label><br>
+        <input type="email" name="" id="Email" placeholder="Enter your email here" required><br>
+        <br>
+        <label for="Profilepicture">Upload Picture</label><br>
+        <input type="file" name="" id="Profilepicture" required>
+        <br>
+        <br>
+        <input type="Submit" value="Submit" onclick="foo()"><br>
+    </form>
+    <script>
+        function foo(){
+            alert("Please provide the required details");
+        }
+    </script>
+</body>
+</html>
